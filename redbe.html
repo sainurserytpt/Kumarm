@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sir Sai Nursery & Herbal Plants</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header { background: green; color: white; text-align: center; padding: 20px; }
+        nav { text-align: center; background: darkgreen; padding: 10px; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; font-size: 18px; }
+        .container { padding: 20px; text-align: center; }
+        .products img { width: 200px; height: auto; margin: 10px; }
+        .contact { background: #f4f4f4; padding: 20px; }
+        footer { background: green; color: white; text-align: center; padding: 10px; margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sir Sai Nursery & Herbal Plants</h1>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#products">Products</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container" id="home">
+        <h2>Welcome to Sir Sai Nursery</h2>
+        <p>Your one-stop destination for herbal and nursery plants.</p>
+    </div>
+    <div class="container" id="about">
+        <h2>About Us</h2>
+        <p>We provide a wide variety of herbal and nursery plants to promote a green and healthy lifestyle.</p>
+    </div>
+    <div class="container products" id="products">
+        <h2>Our Plants</h2>
+        <img src="plant1.jpg" alt="Herbal Plant">
+        <img src="plant2.jpg" alt="Flowering Plant">
+        <img src="plant3.jpg" alt="Indoor Plant">
+    </div>
+    <div class="container contact" id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: info@sirsainursery.com | Phone: +91 98765 43210</p>
+    </div>
+    <footer>
+        <p>&copy; 2025 Sir Sai Nursery & Herbal Plants. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
